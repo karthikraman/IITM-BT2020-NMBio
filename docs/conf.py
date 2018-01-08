@@ -35,13 +35,15 @@ extensions = ['sphinx.ext.todo',
               'sphinx.ext.mathjax',
               'nbsphinx',
               'IPython.sphinxext.ipython_console_highlighting'
-            ]
+              ]
 # Note:
 # IPython.sphinxext.ipython_console_highlighting is required for anaconda.
 # See the issue: https://github.com/spatialaudio/nbsphinx/issues/24
 
 # avoid automatic execution for notebooks
 nbsphinx_execute = 'never'
+nbsphinx_allow_errors = True  # For readthedocs
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -174,6 +176,3 @@ texinfo_documents = [
      author, 'NumericalMethodsforBiology2018', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
