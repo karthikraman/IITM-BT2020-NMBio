@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Numerical Methods in Biology (2018 Jan-May) documentation build configuration file, created by
+# Numerical Methods for Biology (2018) documentation build configuration file, created by
 # sphinx-quickstart on Mon Jan  8 09:05:28 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Numerical Methods in Biology (2018 Jan-May)'
+project = 'Numerical Methods for Biology (2018)'
 copyright = '2018, Karthik Raman & Athi N Naganathan'
 author = 'Karthik Raman & Athi N Naganathan'
 
@@ -84,7 +84,7 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -113,7 +113,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'NumericalMethodsinBiology2018Jan-Maydoc'
+htmlhelp_basename = 'NumericalMethodsforBiology2018doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -140,7 +140,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'NumericalMethodsinBiology2018Jan-May.tex', 'Numerical Methods in Biology (2018 Jan-May) Documentation',
+    (master_doc, 'NumericalMethodsforBiology2018.tex', 'Numerical Methods for Biology (2018) Documentation',
      'Karthik Raman \\& Athi N Naganathan', 'manual'),
 ]
 
@@ -150,7 +150,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'numericalmethodsinbiology2018jan-may', 'Numerical Methods in Biology (2018 Jan-May) Documentation',
+    (master_doc, 'numericalmethodsforbiology2018', 'Numerical Methods for Biology (2018) Documentation',
      [author], 1)
 ]
 
@@ -161,8 +161,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'NumericalMethodsinBiology2018Jan-May', 'Numerical Methods in Biology (2018 Jan-May) Documentation',
-     author, 'NumericalMethodsinBiology2018Jan-May', 'One line description of project.',
+    (master_doc, 'NumericalMethodsforBiology2018', 'Numerical Methods for Biology (2018) Documentation',
+     author, 'NumericalMethodsforBiology2018', 'One line description of project.',
      'Miscellaneous'),
 ]
 
