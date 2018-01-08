@@ -11,6 +11,8 @@ Welcome to Numerical Methods in Biology (2018 Jan-May)
    :numbered: true
    :caption: Contents:
 
+   matlab_intro.ipynb
+
 
 
 Indices and tables
